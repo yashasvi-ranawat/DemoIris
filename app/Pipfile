@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["all"], version = "*"}
+torch = "*"
+pytorch-lightning = "*"
+
+[dev-packages]
+requests = "*"
+jupyterlab = "*"
+sklearn = "*"
+
+[requires]
+python_version = "3.10"

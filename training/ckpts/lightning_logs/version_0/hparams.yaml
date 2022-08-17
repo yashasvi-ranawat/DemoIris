@@ -1,0 +1,4 @@
+hidden_layers: 8, 4, 8
+lr: 0.001
+max_iters: 1680
+warmup: 10
